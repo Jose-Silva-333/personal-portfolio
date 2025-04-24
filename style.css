@@ -1,0 +1,324 @@
+html {
+    scroll-padding-top: 4rem;
+}
+
+#header {
+    top: 0;
+    position: sticky;
+    background-color: white;
+    z-index: 5;
+}
+
+.nav-pills .nav-link.active {
+    background-color: #112752;
+}
+
+.nav-link {
+    color: #112752;
+}
+
+.nav-link:hover {
+    color: #5277a6;
+}
+
+#hero {
+    background-color: #112752;
+    color: #ffffff;
+}
+
+.font-1 {
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.font-2 {
+    font-family: "Kadwa", serif;
+}
+
+.text-color-1 {
+    color: #5277a6;
+}
+
+.text-color-2 {
+    color: #112752;
+}
+
+.highlighted {
+    text-decoration: underline;
+}
+
+.no-margin {
+    margin: 0px;
+}
+
+#header ul{
+    justify-content: center;
+}
+
+#hero h1 {
+    font-size: 5.5rem;
+}
+
+#hero img {
+    border-radius: 20px;
+}
+
+#hero p {
+    font-size: 2.5rem;
+    padding-right: 50px;
+    line-height: 55px;
+}
+
+#about-me .flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.description-width {
+    flex: 1;
+    min-width: 350px;
+}
+
+#about-me img {
+    border-radius: 50%;
+    margin-right: 0px;
+    height: 250px;
+}
+
+#about-me #wave {
+    position: absolute;
+    bottom: 10px;
+    z-index: -1;
+}
+
+#about-me h2 {
+    font-size: 3rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+#about-me a {
+    width: 200px;
+    font-size: 1.5rem;
+    background-color: #112752;
+    border-color: #112752;
+}
+
+#tools-technologies {
+    background-color: #bbcbd5;
+    color: #5277a6;
+}
+    
+h3 {
+    font-size: 2.5rem;
+}
+
+#tools-technologies img {
+    max-width: 45%;
+    margin: auto;
+    min-width: 40px;
+}
+
+.box {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.grid-tools {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: repeat(9, 1fr);
+    gap: 2%;
+}
+
+#icon-html {
+    grid-area: 1 / 1 / 2 / 3;
+}
+
+#icon-css {
+    grid-area: 1 / 3 / 2 / 5;
+}
+
+#icon-js {
+    grid-area: 1 / 5 / 2 / 7;
+}
+
+#icon-java {
+    grid-area: 1 / 7 / 2 / 9;
+}
+
+#icon-python {
+    grid-area: 2 / 2 / 3 / 4;
+}
+
+#icon-nodejs {
+    grid-area: 2 / 4 / 3 / 6;
+}
+
+#icon-angular {
+    grid-area: 2 / 6 / 3 / 8;
+}
+
+#icon-c {
+    grid-area: 2 / 8 / 3 / 10;
+}
+
+#projects {
+    background-color: #5277a6;
+    color: #ffffff;
+}
+
+.grid-projects {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.project-item {
+    background-color: #ffffff;
+    color: #5277a6;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.project-item p {
+    font-size: 16px;
+}
+
+#project-1 {
+    grid-area: 1 / 1 / 2 / 4;
+}
+
+#project-2 {
+    grid-area: 2 / 2 / 3 / 5;
+}
+
+#project-3 {
+    grid-area: 3 / 1 / 4 / 4;
+}
+
+#projects a {
+    background-color: #112752;
+    border-color: #112752;
+}
+
+.keyword {
+    font-weight: 600;
+}
+
+.email-link {
+    color: #112752;
+    font-weight: 600;
+    text-decoration: underline solid;
+    transition: color 0.2s ease;
+}
+  
+.email-link:hover {
+    color: #5277a6;
+}
+
+#contact-me .flex-row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.contact-text {
+    flex: 1;
+    max-width: 65%;
+}
+
+#contact-me img {
+    flex: 1;
+    max-width: 30%;
+    align-self: flex-end;
+}
+
+#footer {
+    background-color: #112752;
+    color: #ffffff;
+}
+
+#footer a {
+    color: #ffffff;
+}
+
+.footer-attributions {
+    font-size: 0.8rem;
+}
+  
+#footer a:hover {
+    color: #bbcbd5;
+}
+
+@media (min-width: 992px) {
+    .margin-logo {
+      margin-right: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    #about-me img {
+        margin-right: 36px;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    html {
+        scroll-padding-top: 10rem;
+    }
+
+    #hero h1 {
+        font-size: 4rem;
+    }
+
+    #hero p {
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+
+    #about-me h2 {
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    #about-me a {
+        width: 150px;
+        font-size: 1rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    #projects ul {
+        font-size: 14px;
+    }
+
+    #projects p {
+        font-size: 14px;
+    }
+
+    #projects a {
+        font-size: 14px;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+}
